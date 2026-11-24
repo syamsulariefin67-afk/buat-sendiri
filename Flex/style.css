@@ -1,0 +1,124 @@
+/* reset tampilan bawaan dari browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar style */
+.navbar {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
+}
+
+.menu-nav {
+    display: flex;
+    gap: 16px;
+}
+
+.menu-nav a {
+    color: rgb(26, 88, 7);
+    text-decoration: none;
+    font-size: large;
+}
+
+.menu-nav a:hover {
+    color: rgb(0, 85, 0);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(53, 235, 37, 0.4);
+}
+
+
+.logo-nama {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.logo-nama h2 {
+    color: rgb(4, 99, 12);
+}
+
+/* section hero */
+.section-hero {
+    background: rgb(58, 156, 58);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+}
+
+.container {
+    display: flex;
+    gap: 49px;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.kiri {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.kanan img {
+    width: 100%;
+}
+
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.btn {
+    padding: 5px 8px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #015a01;
+    background: linear-gradient(135deg, #72f757, #72f757);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 6px 16px rgb(53, 167, 38);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(53, 235, 37, 0.4);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+.section-about {
+    padding: 38px 50px;
+    display: flex;
+    flex-direction: row;
+    color: #015a01;
+    background-color: #72f757;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 24px 16px;
+}
+
+.ini {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-about {
+    background-color: #57f75f;
+    padding: 28px 20px;
+    border-radius: 24px;
+}
